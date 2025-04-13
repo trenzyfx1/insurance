@@ -56,13 +56,15 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+
+
 }
 
 .content1 {
     display: flex;
     flex-direction: column;
     gap: 0;
+
 }
 
 .welcome {
@@ -79,6 +81,8 @@ p {
     line-height: 1;
 }
 
+.button {}
+
 .get-started {
     border: none;
     outline: none;
@@ -90,6 +94,8 @@ p {
     font-size: 12px;
     font-family: "roboto";
     text-transform: uppercase;
+
+
 }
 
 .watch-video {
@@ -104,16 +110,4 @@ p {
     font-family: "roboto";
     text-transform: uppercase;
 
-}
-
-
-@media (max-width: 900px) {
-    
-    .logo {
-        display: none;
-    }
-
-    .content1 {
-        margin-left: 40px;
-    }
 }

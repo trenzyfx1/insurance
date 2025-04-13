@@ -114,6 +114,7 @@ p {
     }
 
     .content1 {
-        margin-left: 40px;
+        margin: auto;
+        display: ;
     }
 }

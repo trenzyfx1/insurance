@@ -2,7 +2,6 @@ body {
     background-color: #0d4a31;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 
 .menu,
@@ -12,14 +11,13 @@ ul {
     flex-direction: row;
 }
 
-.menu {
+.menu{
     justify-content: space-between;
     padding: 20px 100px;
-
+    
 }
 
-nav,
-ul {
+nav, ul {
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -55,28 +53,36 @@ li {
 .content {
     display: flex;
     flex-direction: row;
+    /* gap: 320px; */
     justify-content: space-around;
-    flex-wrap: wrap;
-}
 
+    
+}
 .content1 {
     display: flex;
     flex-direction: column;
     gap: 0;
+
 }
 
 .welcome {
     font-family: "playfair display";
     font-size: 50px;
+    /* font-style: normal; */
+    /* font-variant: normal; */
     font-weight: 700;
     line-height: 1;
     color: #fff;
 }
 
-p {
-    font-family: "roboto";
-    color: #fff;
-    line-height: 1;
+p{
+   font-family: "roboto";
+   color: #fff;
+   lin
+}
+
+.button {
+
 }
 
 .get-started {
@@ -90,6 +96,8 @@ p {
     font-size: 12px;
     font-family: "roboto";
     text-transform: uppercase;
+    
+
 }
 
 .watch-video {
@@ -103,17 +111,37 @@ p {
     font-size: 12px;
     font-family: "roboto";
     text-transform: uppercase;
+    
+}
+
+.jasindo {
+   
+}
+
+.image {
 
 }
 
+.logo-container {
+   
+}
 
-@media (max-width: 900px) {
-    
-    .logo {
-        display: none;
-    }
+.qualified {
+   
+}
 
-    .content1 {
-        margin-left: 40px;
-    }
+.after {
+   
+}
+
+.lock {
+   
+}
+
+.web {
+   
+}
+
+.star {
+
 }

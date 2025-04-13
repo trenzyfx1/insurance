@@ -107,13 +107,4 @@ p {
 }
 
 
-@media (max-width: 900px) {
-    
-    .logo {
-        display: none;
-    }
-
-    .content1 {
-        margin-left: 40px;
-    }
-}
+@media(900)

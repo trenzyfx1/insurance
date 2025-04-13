@@ -56,7 +56,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    
 }
 
 .content1 {
@@ -104,16 +104,4 @@ p {
     font-family: "roboto";
     text-transform: uppercase;
 
-}
-
-
-@media (max-width: 900px) {
-    
-    .logo {
-        display: none;
-    }
-
-    .content1 {
-        margin-left: 40px;
-    }
 }

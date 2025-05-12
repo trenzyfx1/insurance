@@ -113,7 +113,7 @@ p {
 @media (max-width: 900px) {
 
     header {
-        background-color: #000;
+        
     }
     
     nav {
@@ -124,11 +124,3 @@ p {
         margin-left: 40px;
     }
 }
-
-@media (max-width: 480px) {
-
-
-    img {
-        width: 200px;
-    }
-} 

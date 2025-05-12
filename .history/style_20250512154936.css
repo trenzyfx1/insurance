@@ -1,7 +1,6 @@
-html,
 body {
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: ;
     background-color: #0d4a31;
     margin: 0;
     padding: 0;
@@ -111,12 +110,8 @@ p {
 
 
 @media (max-width: 900px) {
-
-    header {
-        background-color: #000;
-    }
     
-    nav {
+    .logo {
         display: none;
     }
 
@@ -124,11 +119,3 @@ p {
         margin-left: 40px;
     }
 }
-
-@media (max-width: 480px) {
-
-
-    img {
-        width: 200px;
-    }
-} 

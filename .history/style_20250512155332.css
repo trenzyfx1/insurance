@@ -125,10 +125,4 @@ p {
     }
 }
 
-@media (max-width: 480px) {
-
-
-    img {
-        width: 200px;
-    }
-} 
+@media (max-width: 900px) 

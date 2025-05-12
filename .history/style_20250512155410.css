@@ -128,7 +128,5 @@ p {
 @media (max-width: 480px) {
 
 
-    img {
-        width: 200px;
-    }
+    img 
 } 
